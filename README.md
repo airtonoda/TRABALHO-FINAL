@@ -77,7 +77,7 @@ Resposta: A previsão dos preços de fechamento utilizando ambos os modelos.
 Estrutura do Projeto
 app.py: Código principal da API.
 requirements.txt: Dependências necessárias para rodar a API.
-venv/: Ambiente virtual Python (se criado).
+venv/: Ambiente virtual Python.
 
 Contribuições
 Pull requests são bem-vindos. Para mudanças significativas, por favor, abra uma issue para discutir o que você gostaria de modificar.
