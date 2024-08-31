@@ -1,0 +1,16 @@
+### Testar a Rota de Bem-Vindo
+GET http://127.0.0.1:5000/
+
+### Testar a Rota de Previsão
+POST http://127.0.0.1:5000/predict
+Content-Type: application/json
+
+{
+  "Abertura": 39.22,
+  "Máxima": 39.65,
+  "Mínima": 38.88,
+  "Vol.": 84437200,
+  "Media_Movel_7d": 39.00,
+  "Media_Movel_30d": 38.50,
+  "Var_Dia_Anterior": 0.01
+}
