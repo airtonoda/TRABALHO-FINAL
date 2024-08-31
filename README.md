@@ -1,4 +1,5 @@
 API de Previsão de Preços das Ações PETR4
+
 Esta API foi desenvolvida como parte de um projeto de pós-graduação para prever o preço de fechamento das ações da Petrobras (PETR4) usando modelos de regressão linear e Bayesian Ridge.
 
 Funcionalidades
@@ -11,7 +12,6 @@ pip para gerenciar pacotes Python
 
 Instalação
 Clonar o Repositório
-
 git clone https://github.com/airtonoda/TRABALHO-FINAL.git
 cd TRABALHO-FINAL/API_ProjetoFinal
 
@@ -51,7 +51,6 @@ Método: POST
 Endpoint: /predict
 Descrição: Recebe dados de entrada do usuário e retorna a previsão do preço de fechamento.
 Exemplo de Requisição:
-
 {
   "Abertura": 39.22,
   "Máxima": 39.65,
@@ -61,14 +60,14 @@ Exemplo de Requisição:
   "Media_Movel_30d": 38.50,
   "Var_Dia_Anterior": 0.01
 }
-Exemplo de Resposta:
 
+Exemplo de Resposta:
 {
   "predicted_price_bayesian": "R$ 2.91",
   "predicted_price_linear": "R$ 2.91"
 }
 
-3. (Opcional) Previsão Automática
+3. (Não implementado aidna) Previsão Automática
 Método: POST
 Endpoint: /predict-auto
 Descrição: Faz a previsão automática utilizando dados do Yahoo Finance.
